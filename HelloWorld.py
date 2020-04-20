@@ -7,3 +7,5 @@ while message != 'quit':
     message = input(prompt)
     if message != 'quit':
         print(name + " said: " + "\"" + message + "\"")
+    else
+        print(name + " didn't say anything...")
