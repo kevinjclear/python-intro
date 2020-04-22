@@ -1,16 +1,20 @@
-cars = 100
-space_in_a_car = 4.0
-drivers = 30
-passengers = 90
-cars_not_driven = cars - drivers
-cars_driven = drivers
-carpool_capacity = cars_driven * space_in_a_car
-average_passengers_per_car = passengers / cars_driven
+my_name = 'Zed A. Shaw'
+my_age = 35
+my_height = 74
+my_weight = 180
+my_eyes = 'Blue'
+my_teeth = 'White'
+my_hair = 'Brown'
+feet = my_height / 12
 
+print(f"Let's talk about {my_name}.") #this is how to use a format string
+print(f"He's {my_height} inches tall.")
+print(f"He's {my_weight} pounds heavy.")
+print("Actually that's now too heavy")
+print(f"He's got {my_eyes} eyes and {my_hair}.")
+print(f"His teeth are usually {my_teeth} depending on the coffee.")
 
-print("There are",cars,"cars available.")
-print("There are",drivers,"drivers available.")
-print("There will be",cars_not_driven,"empty cars today.")
-print("We can transport",carpool_capacity,"people today.")
-print("We have,",passengers,"to carpool today")
-print("We need to put about",average_passengers_per_car,"in each car")
+total = my_age + my_height + my_weight
+
+print(f"if I add {my_age}, {my_height}, and {my_weight} I get {total}.")
+print(round(feet))
